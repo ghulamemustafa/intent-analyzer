@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="PROJECT_ID" value="sa.alrajhi.retail"/>
+
+    <appender name="APPLICATION-SYNC"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/ibanking/intent-analyzer/application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>logs/ibanking/intent-analyzer/application-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 100MB -->
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %X{cic} %X{username} [%thread] -%mdc{user}-%-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="APPLICATION" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="APPLICATION-SYNC"/>
+    </appender>
+
+    <root level="WARN">
+        <appender-ref ref="APPLICATION"/>
+    </root>
+</configuration>

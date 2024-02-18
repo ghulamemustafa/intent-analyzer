@@ -1,0 +1,149 @@
+[
+  {
+    "code": "OPEN_ADD_BENEFICIARY_SCREEN",
+    "textEn": ["New beneficiary General"],
+    "textAr": ["اضافة مستفيد جديد", "اضافة مستفيد"],
+    "tabIndex": "14",
+    "keywordIndex": "7"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_ADD_LOCAL_BENEFICIARY",
+    "textEn": ["New Local Beneficiary"],
+    "textAr": ["أضافة مستفيد محلي"],
+    "tabIndex": "8",
+    "keywordIndex": "12"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_ADD_ARB_BENEFICIARY",
+    "textEn": ["New Alrajhi beneficiary"],
+    "textAr": ["أضافة مستفيد الراجحي"],
+    "tabIndex": "12",
+    "keywordIndex": "25"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_ADD_INTERNATIONAL_BENEFICIARY",
+    "textEn": ["New International Beneficiary"],
+    "textAr": ["أضافة مستفيد دولي"],
+    "tabIndex": "2",
+    "keywordIndex": "9"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_BENEFICIARY_LIST",
+    "textEn": ["Beneficiary", "Beneficiaries"],
+    "textAr": ["مستفيد", "مستفيدين"],
+    "tabIndex": "19",
+    "keywordIndex": "14"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_LOCAL_BENEFICIARY_LIST",
+    "textEn": ["Local Beneficiary"],
+    "textAr": ["مستفيد", "مستفيدين محلي"],
+    "tabIndex": "5",
+    "keywordIndex": "21"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_INTERNATIONAL_BENEFICIARY_LIST",
+    "textEn": ["International beneficiary"],
+    "textAr": ["مستفيد", "مستفيدين دولي"],
+    "tabIndex": "13",
+    "keywordIndex": "3"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_ALRAJHI_BENEFICIARY_LIST",
+    "textEn": ["Alrajhi beneficiary"],
+    "textAr": ["مستفيد", "مستفيدين الراجحي"],
+    "tabIndex": "11",
+    "keywordIndex": "29"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_ADD_URPAY",
+    "textEn": ["New Urpay", "Urpay"],
+    "textAr": ["أضافة Urpay"],
+    "tabIndex": "20",
+    "keywordIndex": "17"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_ARB_BENEFICIARY",
+    "textEn": ["Transfer to Alrajhi"],
+    "textAr": ["التحويل الراجحي", "التحويل الى مستفيد الراجحي"],
+    "tabIndex": "1",
+    "keywordIndex": "27"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_LOCAL_BENEFICIARY",
+    "textEn": ["Transfer to Local"],
+    "textAr": ["التحويل محلي", "التحويل الى مستفيد محلي"],
+    "tabIndex": "18",
+    "keywordIndex": "10"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_INTERNATIONAL_BENEFICIARY",
+    "textEn": ["Transfer to International", "Transfer to international beneficiary", "Transfer to international bank"],
+    "textAr": ["التحويل دولي", "التحويل الى مستفيد دولي"],
+    "tabIndex": "10",
+    "keywordIndex": "2"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_BETWEEN_ACCOUNTS",
+    "textEn": ["Between Account", "Transfer to my account", "Transfer between my account"],
+    "textAr": ["التحويل الى حسابي", "التحويل الى حسابي الاخر", "التحويل الى حساباتي"],
+    "tabIndex": "4",
+    "keywordIndex": "19"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_URPAY",
+    "textEn": ["Transfer to Urpay", "Transfer to Urpay Wallet", "Transfer to Wallet", "Urpay Transfer"],
+    "textAr": ["التحويل الى Urpay"],
+    "tabIndex": "3",
+    "keywordIndex": "26"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_ARC",
+    "textEn": ["Transfer to ARC", "ARC Transfer"],
+    "textAr": ["ARC تحويل الى"],
+    "tabIndex": "6",
+    "keywordIndex": "8"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_CHARITY_SERVICES",
+    "textEn": ["Community Services", "Transfer to Community Service"],
+    "textAr": ["جمعية خيرية", "التحويل الى جمعيات خيريه"],
+    "tabIndex": "16",
+    "keywordIndex": "15"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_TRANSFER_TO_GIFT_TRANSFER",
+    "textEn": ["Gift Transfer", "Gift"],
+    "textAr": ["ارسال هدية", "هدية", "تحويل هدية"],
+    "tabIndex": "7",
+    "keywordIndex": "13"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_ALRAJHI_REQUESTS",
+    "textEn": ["AL Rajhi Request"],
+    "textAr": ["طلبات الراجحي"],
+    "tabIndex": "15",
+    "keywordIndex": "30"
+  },
+  {
+    "code": "REDIRECT_THE_USER_TO_BENEFICIARY_LIST",
+    "textEn": ["Beneficiary list", "My beneficiary"],
+    "textAr": ["المستفيدين"],
+    "tabIndex": "9",
+    "keywordIndex": "20"
+  },
+  {
+    "code": "REDIRECT_USER_TO_TRANSFER_SUMMARY_SCREEN",
+    "textEn": ["Transfer to (Beneficiary name) with amount () from account () purpose ()"],
+    "textAr": ["تحويل الى () مبلغ () من حسابي () بسبب ()"],
+    "tabIndex": "17",
+    "keywordIndex": "1"
+  },
+  {
+    "code": "REDIRECT_USER_TO_TRANSFER_SUMMARY_SCREEN",
+    "textEn": ["Transfer Gift from () to () with amount ()"],
+    "textAr": ["تحويل هديه من () الى () بمبلغ ()"],
+    "tabIndex": "11",
+    "keywordIndex": "28"
+  }
+]
